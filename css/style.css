@@ -84,6 +84,8 @@ section{
     cursor: pointer;
 }
 
+/* Home Section */
+
 .home {
   display: flex;
   justify-content: center;
@@ -153,6 +155,10 @@ span {
 
 .btn:hover {
   box-shadow: none;
+}
+
+.home-img {
+  padding-top: 100px;
 }
 
 
