@@ -421,7 +421,7 @@ span {
   margin: 0;
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .footer-links li {
@@ -456,4 +456,19 @@ span {
 
 .footer-text {
   font-size: 1.2rem;
+  color: var(--text-color);
+}
+
+.footer-iconTop {
+  margin-top: 2rem;
+}
+
+.footer-iconTop a {
+  color: var(--text-color);
+  font-size: 2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-iconTop a:hover {
+  color: var(--accent-color);
 }
