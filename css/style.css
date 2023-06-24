@@ -382,93 +382,78 @@ span {
   cursor: pointer;
 }
 
-
-/* 
-
-.contact-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  
+/* Footer Section */
+.footer {
+  background-color: var(--second-bg-color);
+  color: var(--text-color);
+  padding: 4rem 0;
+  text-align: center;
 }
 
-.contact-info {
-  flex: 0 0 48%;
+.footer-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  
+  justify-content: center;
+  align-items: center;
 }
 
-.contact-item {
+.footer-logo {
   display: flex;
   align-items: center;
   margin-bottom: 2rem;
-  
 }
 
-.contact-item i {
-  font-size: 3rem;
-  margin-right: 1.5rem;
-  color: var(--text-color);
-  
+.footer-logo img {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
 }
 
-.contact-item h3 {
+.footer-logo h2 {
   font-size: 2rem;
-  color: var(--text-color);
-  
+  font-weight: 500;
+  margin: 0;
 }
 
-.contact-item p {
-  font-size: 1.6rem;
-  color: var(--text-color-light);
-  
-}
-
-.contact-form {
-  flex: 0 0 48%;
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  
-}
-
-.input-box {
-  display: flex;
+  justify-content: center;
   margin-bottom: 2rem;
-  
 }
 
-.input-box input,
-.input-box textarea {
-  flex: 1;
-  padding: 1.5rem;
-  font-size: 1.6rem;
-  background: var(--second-bg-color);
-  border: none;
-  border-radius: 0.5rem;
+.footer-links li {
+  margin: 0 1.5rem;
+}
+
+.footer-links a {
   color: var(--text-color);
-  
+  text-decoration: none;
+  font-size: 1.4rem;
+  transition: color 0.3s ease;
 }
 
-.input-box input::placeholder,
-.input-box textarea::placeholder {
-  color: var(--text-color-light);
-  
+.footer-links a:hover {
+  color: var(--accent-color);
 }
 
-textarea {
-  resize: vertical;
+.footer-social {
+  margin-bottom: 2rem;
 }
 
-.btn {
-  display: inline-block;
-  padding: 1.5rem 3rem;
-  font-size: 1.6rem;
-  background: var(--text-color);
-  color: var(--second-bg-color);
-  border: none;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  
-} */
+.footer-social a {
+  color: var(--text-color);
+  font-size: 2rem;
+  margin: 0 0.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: var(--accent-color);
+}
+
+.footer-text {
+  font-size: 1.2rem;
+}
