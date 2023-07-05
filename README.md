@@ -1,6 +1,6 @@
 # NodeJs, Express, EJS & MongoDB Blog - CRUD
 
-![alt text](/frontme.png?raw=true)
+![alt text]([/frontme.png?raw=true](https://github.com/Rachamv/Portfolio/blob/main/public/images/frontme.png))
 
 ## You need:
 - NodeJs
