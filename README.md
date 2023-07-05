@@ -1,6 +1,7 @@
 # NodeJs, Express, EJS & MongoDB Blog - CRUD
-
-![alt text]([/frontme.png?raw=true](https://github.com/Rachamv/Portfolio/blob/main/public/images/frontme.png))
+ <p align="center">
+<img width="1000px" height="2000%" src="https://github.com/Rachamv/Portfolio/blob/main/public/images/frontme.png" alt="my banner"
+<P/>
 
 ## You need:
 - NodeJs
