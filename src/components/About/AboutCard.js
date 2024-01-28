@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Adewunmi Oladele </span>
             from <span className="purple">Lagos, Nigeria.</span>
             <br />
-            I am currently a student of Kibo School Of Technologies
+            I'm currently a student of Kibo School Of Technologies
             <br />
 
             <br />
