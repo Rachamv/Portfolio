@@ -305,9 +305,24 @@ button:focus {
   }
 }
 
+@keyframes moveUpDown {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
 .myAvtar {
   justify-content: center !important;
   padding-top: 9em !important;
+  animation: moveUpDown 2s infinite;
+}
+
+.myAvtar img {
+  border-radius: 65%;
+  overflow: hidden;
 }
 
 @media (max-width: 767px) {
