@@ -580,6 +580,38 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+/* Techstack.css */
+.tech-icon {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.icon-name {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.tech-icon:hover .icon-name {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.tech-icon:hover .icon-name {
+  visibility: visible;
+  opacity: 1;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
