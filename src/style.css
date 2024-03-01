@@ -566,7 +566,7 @@ button:focus {
 }
 
 .tech-icons {
-  font-size: 4.5em !important;
+  font-size: 2rem !important;
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
@@ -578,38 +578,6 @@ button:focus {
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
-}
-
-/* Techstack.css */
-.tech-icon {
-  position: relative;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.icon-name {
-  position: absolute;
-  bottom: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.8);
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  visibility: hidden;
-  opacity: 0;
-  transition: opacity 0.3s ease;
-}
-
-.tech-icon:hover .icon-name {
-  visibility: visible;
-  opacity: 1;
-}
-
-
-.tech-icon:hover .icon-name {
-  visibility: visible;
-  opacity: 1;
 }
 
 @media (max-width: 767px) {
