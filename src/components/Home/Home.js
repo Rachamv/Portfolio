@@ -39,7 +39,6 @@ function Home() {
               />
             </Col>
           </Row>
-        </Container>
                 <iframe
                   src="https://embed.ipfscdn.io/ipfs/bafybeigdie2yyiazou7grjowoevmuip6akk33nqb55vrpezqdwfssrxyfy/erc20.html?contract=0xC47c8f66b1f8e0cc11E42680Ed817dC3Ca984f51&chain=%7B%22name%22%3A%22Staava+Fuji%22%2C%22chain%22%3A%22%22%2C%22rpc%22%3A%5B%22https%3A%2F%2Ftestnet-node.staava.network%2F%22%5D%2C%22nativeCurrency%22%3A%7B%22symbol%22%3A%22tSTAAV%22%2C%22name%22%3A%22tSTAAV%22%2C%22decimals%22%3A18%7D%2C%22shortName%22%3A%22staava-fuji%22%2C%22chainId%22%3A603995%2C%22testnet%22%3Atrue%2C%22slug%22%3A%22staava-fuji%22%7D&clientId=9f6b2b09815eb82cab8b697ddc4998ad&theme=light&primaryColor=purple"
                   width="600px"
@@ -47,6 +46,7 @@ function Home() {
                   style="max-width:100%;"
                   frameborder="0"
                  ></iframe>
+        </Container>
       </Container>
       <Home2 />
     </section>
